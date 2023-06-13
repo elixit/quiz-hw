@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width ">
+ <title>Timed Quiz</title>
+
+    
+    
+    <link rel="stylesheet" href="style.css">
+<!-- stylesheet linked-->
+   
+   
+</head>
+<body>
+    
+    <div class="container">
+
+        
+        
+                
+            </div>
+            
+            </div>
+            <div id="timer" class="text">
+                <div class="clock"></i> Time: <span id="secondsLeft">0</span>
+            <div id="timesUp">Time is running out!</div>
+        </div>
+
+         
+            
+              
+                 
+                  <div id="start" 
+                       class="font-weight-bold ">Timed Quiz</h1>
+                      <p class="p-5">Hurry!</p>
+                      <button type="button" id="start-quiz-button" class="btn">Start Quiz</button>
+                  </div>
+
+                 
+                  <div id="question" style="display: none;">
+                    <p id="questionTitle" ></p>
+                    
+                        <p><button id="btn0" ></button></p>
+                        <p><button id="btn1" class="btn"></button></p>
+                        
+                        <hr id="line" style="display: none" class="mt-4">
+                        <p id="answerCheck" style="display: none;"></p>
+                    </div>
+                  </div>
+
+                  
+                    <div class id="summary" style="display: none;">
+                        
+                            <h2 class=>final score - <span id="finalScore"></span> !</h2>
+                            <form>
+                                <p class=>Enter your initials: <input id="initialInput"  type="text">
+                                <button type="submit" id="submitBtn" class="btn btn-info mt-3">Submit</button>
+                                </p>
+                            </form>
+                        </div>
+                    
+                </div>
+
+               
+                <div id="highScoreSection" class="pl-5 ml-4 pt-5 justify-content-center font-weight-bold" style="display: none;">
+                    <h2 >High Scores</h2>                   
+                    
+                                     
+                    <p>
+                      
+
+                    </p>
+                    
+                </div>
+              </main>
+            
+        </div>
+    </div>
+
+    
+   
+    <script src="script.js"></script>
+   
+</body>
+</html>
