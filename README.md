@@ -9,7 +9,7 @@ This module requires the following modules:
 - style.css
 
 ## Project function
-- the goal of this project is to implement a start button which triggers a timer. Once the timer starts, the user will be prompted two questions. If they miss a question, the correct answer will be displayed below. If they finish the quiz or lose, the bottom half of the page will display their score.
+- the goal of this project is to implement a start button which triggers a timer. Once the timer starts, the user will be prompted two questions. If they miss a question, the correct answer will be displayed below. If they finish the quiz or lose, the bottom half of the page will display their score. Each time a user misses a question, the timer will deduct seconds. 
 
 ## Sources used
 
