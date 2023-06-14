@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #5D737E;
+  --secondary-color: #D6F8D6;
+  --tertiary-color: #7FC6A4;
+  --quaternary-color: #55505C;
+  --hover-color: #4e616b;
+  --shadow-color:rgba(57, 127, 93, 0.4);
+  --font-style: 'Questrial';
+}
+
+body {
+  font-family: var(--font-style), 'Ranchers', cursive;
+  background-color: var(--secondary-color);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/*https://www.codewithrandom.com/2022/08/10/quiz-app-with-timer-javascript/?expand_article=1
+
+Style.css used
+
+
+
+
+
